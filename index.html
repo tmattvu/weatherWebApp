@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and News App</title>
+    <link rel="stylesheet" href="wn.css">
+</head>
+<body>
+    <h1 id="dashboardTitle">Weather and News</h1>
+    <div id="weatherSection">
+        <input type="text" id="cityInput" placeholder="Enter city for weather">
+        <button id="weatherBtn">Get Weather</button>
+        <img id="weatherImage" src="weather.gif" alt="Weather photo">
+        <div id="weatherResult"></div>
+    </div>
+    <div id="newsSection">
+        <input type="text" id="newsQuery" placeholder="Enter topic for news">
+        <button id="newsBtn">Get News</button>
+        <div id="newsResult"></div>
+        <img id="newsImage" src="news.gif" alt="News photo">
+    </div>
+    <script type="module" src="wn.js"></script>
+</body>
+</html>
+
