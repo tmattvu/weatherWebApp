@@ -27,4 +27,4 @@ View the weather information below the search field.
 Searching for News:
 Enter a keyword or phrase in the "Enter topic for news" input field.
 Click the "Get News" button.
-The top five relevant news articles will appear below the search field.
+The top ten relevant news articles will appear below the search field.
